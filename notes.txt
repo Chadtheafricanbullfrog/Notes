@@ -1,0 +1,33 @@
+
+BASH commands
+ls - List files and directories in current directory
+cd - Change Directory
+mkdir - Make Directory
+touch - Create text file
+
+vi        - Text editor run in command line
+vi <file> - open file to edit in vi
+
+Vi commands
+i   - Enter Insert mode 
+esc - Exit Insert mod
+:wq - Take command "Write, Quit"
+:q  - Take command "quit"
+:q! - forcibly quits
+ 
+Vi Command Mode
+shift-H - Takes you to the upper left corner (Home)
+shift-L - Takes you to the lower left corner 
+shift-$ - Takes you to the beginning of the line
+shift-^ - Takes you to end of the line
+shift-G - Takes you to the end of the file
+
+Git
+git init                      - Initialize new local Git repository
+git status                    - Display the status of the current working branch
+git add <file>                - Add file(S) to staging area
+git commit                    - commit staging area (save changes on branch)
+git log                       - View all commit of the current working branch
+git push origin <branch>      - Pushes commited code  to a specific branch
+git remote -v                 - Asks the terminal what remote it belongs too
+git remote add origin <path>  - Adds remote url from github. copied from repository from github    
